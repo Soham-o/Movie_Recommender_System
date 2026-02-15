@@ -35,15 +35,6 @@
 
 <br />
 
-# 📖 Table of Contents
-
-- [📍 Overview](#-overview)
-- [🧠 How It Works](#-how-it-works)
-- [📐 System Architecture](#-system-architecture)
-- [📂 Project Structure](#-project-structure)
-- [🚀 Installation & Setup](#-installation--setup)
-- [📸 Screenshots](#-screenshots)
-
 ---
 
 # 📍 Overview
