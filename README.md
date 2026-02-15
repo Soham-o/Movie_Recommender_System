@@ -93,12 +93,19 @@ flowchart LR
     end
 ```
 ├── movies_recommendation_system.ipynb  # Jupyter notebook for data training
+
 ├── movies_rs.py                        # Main Streamlit application
+
 ├── tmdb_5000_credits.csv               # Dataset 1: Credits
+
 ├── tmdb_5000_movies.csv                # Dataset 2: Movies metadata
+
 ├── movies.pkl                          # Processed dataframe (generated)
+
 ├── similarity.pkl                      # Similarity matrix (generated)
+
 ├── requirements.txt                    # List of dependencies
+
 └── README.md                           # Project documentation
 
 Installation & Setup
