@@ -91,3 +91,61 @@ flowchart LR
     I -->|Return Poster| H
     H -->|Display| J[Recommendations]
     end
+```
+├── data/
+│   ├── tmdb_5000_credits.csv   # Source dataset 1
+│   └── tmdb_5000_movies.csv    # Source dataset 2
+├── models/
+│   ├── movies.pkl              # Processed dataframe (generated)
+│   └── similarity.pkl          # Similarity matrix (generated)
+├── notebooks/
+│   └── analysis.ipynb          # Jupyter notebook for training
+├── src/
+│   └── app.py                  # Main Streamlit application
+├── requirements.txt            # Python dependencies
+└── README.md                   # Documentation
+
+Installation & Setup
+Follow these steps to set up the project locally.
+
+1. Clone the Repository
+Bash
+git clone [[https://github.com/your-username/movie-recommender.git](https://github.com/your-username/movie-recommender.git)](https://github.com/Soham-o/Movie_Recommender_System.git).
+cd movie-recommender
+
+2. Install Dependencies
+Bash
+pip install -r requirements.txt
+
+3. Generate the Models
+Note: Due to file size limits, the model files are not included in the repo. You must generate them.
+
+Open movies_recommendation_system.ipynb in Jupyter Notebook.
+
+Run all cells.
+
+This will generate movies.pkl and similarity.pkl in your directory.
+
+4. Run the App
+Bash
+streamlit run movies_rs.py
+
+<div align="center">
+<p>
+Built with ❤️ using Python and Streamlit
+</p>
+<p>
+<a href="https://www.themoviedb.org/documentation/api">TMDB API</a> •
+<a href="https://streamlit.io">Streamlit Docs</a>
+</p>
+</div>
+
+
+### How to use this:
+
+1.  **Create a file** named `README.md` in your project folder.
+2.  **Paste** the code block above into that file.
+3.  **Customize:**
+      * Replace `https://github.com/Soham-o/movie-recommender.git` with your actual repo URL.
+      * If you have screenshots of your app running, replace the `https://via.placeholder.com...` links with the actual paths to your images.
+      * Move your `.pkl` files to a `models/` folder if you want to match the structure in the readme, or update the text to match your current flat file structure.
