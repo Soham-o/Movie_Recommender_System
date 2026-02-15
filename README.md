@@ -110,7 +110,8 @@ Follow these steps to set up the project locally.
 
 1. Clone the Repository
 Bash
-git clone [[https://github.com/your-username/movie-recommender.git](https://github.com/your-username/movie-recommender.git)](https://github.com/Soham-o/Movie_Recommender_System.git).
+git clone https://github.com/Soham-o/Movie_Recommender_System.git.
+
 cd movie-recommender
 
 2. Install Dependencies
