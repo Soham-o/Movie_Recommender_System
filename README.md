@@ -92,7 +92,14 @@ flowchart LR
     H -->|Display| J[Recommendations]
     end
 ```
-├── data/ │ ├── tmdb_5000_credits.csv # Source dataset 1 │ └── tmdb_5000_movies.csv # Source dataset 2 ├── models/ │ ├── movies.pkl # Processed dataframe (generated) │ └── similarity.pkl # Similarity matrix (generated) ├── notebooks/ │ └── analysis.ipynb # Jupyter notebook for training ├── src/ │ └── app.py # Main Streamlit application ├── requirements.txt # Python dependencies └── README.md # Documentation
+├── movies_recommendation_system.ipynb  # Jupyter notebook for data training
+├── movies_rs.py                        # Main Streamlit application
+├── tmdb_5000_credits.csv               # Dataset 1: Credits
+├── tmdb_5000_movies.csv                # Dataset 2: Movies metadata
+├── movies.pkl                          # Processed dataframe (generated)
+├── similarity.pkl                      # Similarity matrix (generated)
+├── requirements.txt                    # List of dependencies
+└── README.md                           # Project documentation
 
 Installation & Setup
 Follow these steps to set up the project locally.
